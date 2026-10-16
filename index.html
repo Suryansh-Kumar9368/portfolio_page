@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suryansh Kumar | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">SK<span>.</span></a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button id="themeBtn" class="theme-btn" aria-label="Toggle theme">☀</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="tag">WELCOME TO MY PORTFOLIO</p>
+                <h1>Hi, I'm <span>Suryansh Kumar</span></h1>
+                <h2>Aspiring Web Developer</h2>
+                <p class="hero-description">
+                    I'm a B.Tech student passionate about web development,
+                    Java programming, and building useful digital experiences.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-card">
+                <div class="window-dots"><i></i><i></i><i></i></div>
+                <div class="code-content">
+                    <p><span class="pink">const</span> developer = {</p>
+                    <p class="indent">name: <span class="green">"Suryansh"</span>,</p>
+                    <p class="indent">role: <span class="green">"Web Developer"</span>,</p>
+                    <p class="indent">language: <span class="green">"JavaScript"</span>,</p>
+                    <p class="indent">learning: <span class="green">"React"</span></p>
+                    <p>};</p>
+                    <p class="code-last">developer.buildFuture(); <span class="cursor">|</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <p class="tag">GET TO KNOW ME</p>
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-card">
+                <p>
+                    Hello! I'm Suryansh Kumar, a third-year B.Tech student at
+                    Galgotias University. I enjoy solving coding problems and
+                    creating responsive websites. I'm improving my skills in
+                    HTML, CSS, JavaScript and React while strengthening my
+                    Java and SQL knowledge. My goal is to become a skilled
+                    full-stack developer and build projects that solve real problems.
+                </p>
+                <div class="stats">
+                    <div><strong>200+</strong><span>LeetCode Problems</span></div>
+                    <div><strong>B.Tech</strong><span>Computer Science</span></div>
+                    <div><strong>Web</strong><span>Development</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <p class="tag">WHAT I WORK WITH</p>
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card"><span>🌐</span><h3>HTML</h3><p>Web structure</p></div>
+                <div class="skill-card"><span>🎨</span><h3>CSS</h3><p>Responsive design</p></div>
+                <div class="skill-card"><span>⚡</span><h3>JavaScript</h3><p>Web interactivity</p></div>
+                <div class="skill-card"><span>⚛️</span><h3>React</h3><p>UI development</p></div>
+                <div class="skill-card"><span>☕</span><h3>Java</h3><p>Programming and DSA</p></div>
+                <div class="skill-card"><span>🗄️</span><h3>SQL</h3><p>Database queries</p></div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <p class="tag">SOME THINGS I'VE BUILT</p>
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-icon">🛍️</div>
+                    <h3>E-Commerce UI</h3>
+                    <p>A shopping website interface with product cards, search, and responsive layouts.</p>
+                    <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                    <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub Repository ↗</a>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">🎓</div>
+                    <h3>Student Dashboard</h3>
+                    <p>A dashboard UI for displaying student profiles, courses, and academic information.</p>
+                    <div class="tech-tags"><span>React</span><span>CSS</span><span>JavaScript</span></div>
+                    <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub Repository ↗</a>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">🧮</div>
+                    <h3>Calculator</h3>
+                    <p>A simple interactive calculator that performs basic mathematical operations.</p>
+                    <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                    <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub Repository ↗</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <p class="tag">LET'S CONNECT</p>
+            <h2 class="section-title">Contact <span>Me</span></h2>
+            <div class="contact-card">
+                <p>Have an opportunity or project idea? Feel free to get in touch.</p>
+                <form id="contactForm">
+                    <input type="text" id="name" placeholder="Your name" required />
+                    <input type="email" id="email" placeholder="Your email" required />
+                    <textarea id="message" placeholder="Your message" rows="5" required></textarea>
+                    <button type="submit" class="btn primary">Send Email</button>
+                </form>
+                <p id="formStatus" role="status"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> Suryansh Kumar. Built with HTML, CSS & JavaScript.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
